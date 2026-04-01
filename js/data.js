@@ -31,156 +31,155 @@ const GUIDE_DATA = {
     { id: "l2-stamp", name: "숫자도장", description: "숫자 도장을 찍으며 수 쓰기와 수 인지를 놀이로 익히는 교구입니다.", image: "images/tools/숫자도장.JPG" },
   ],
 
-  // 30주차 커리큘럼 (실제 데이터)
+  // 30주차 커리큘럼 (2기: 2/24 시작)
   weeks: [
     {
-      week: 1, date: "1/6",
+      week: 1, date: "2/24",
       level1: { missionBook: 1, tools: ["l1-puzzle", "l1-similar"] },
       level2: { missionBook: 31, tools: ["l2-bus"] }
     },
     {
-      week: 2, date: "1/13",
+      week: 2, date: "3/3",
       level1: { missionBook: 2, tools: ["l1-similar", "l1-shape"] },
       level2: { missionBook: 32, tools: ["l2-bus"] }
     },
     {
-      week: 3, date: "1/20",
+      week: 3, date: "3/10",
       level1: { missionBook: 3, tools: ["l1-puzzle", "l1-measure", "l1-similar", "l1-shape"] },
       level2: { missionBook: 33, tools: ["l2-bus", "l1-dice"] }
     },
     {
-      week: 4, date: "1/27",
+      week: 4, date: "3/17",
       level1: { missionBook: 4, tools: ["l1-puzzle", "l1-shape", "l1-measure"] },
       level2: { missionBook: 34, tools: ["l2-memory"] }
     },
     {
-      week: 5, date: "2/3",
+      week: 5, date: "3/24",
       level1: { missionBook: 5, tools: ["l1-shape", "l1-puzzle", "l1-measure", "l1-similar", "l1-tower"] },
       level2: { missionBook: 35, tools: ["l2-bus"] }
     },
     {
-      week: 6, date: "2/10",
+      week: 6, date: "3/31",
       level1: { missionBook: 6, tools: ["l1-measure", "l1-dice"] },
       level2: { missionBook: 36, tools: ["l2-stick"] }
     },
     {
-      week: 7, date: "2/24",
+      week: 7, date: "4/7",
       level1: { missionBook: 7, tools: ["l1-shape", "l1-panoramix"] },
-      level2: { missionBook: 37, tools: ["l2-ring", "l2-bus", "l2-turning", "l1-dice"] },
-      note: "설 연휴(2/17) 후 재개"
+      level2: { missionBook: 37, tools: ["l2-ring", "l2-bus", "l2-turning", "l1-dice"] }
     },
     {
-      week: 8, date: "3/3",
+      week: 8, date: "4/14",
       level1: { missionBook: 8, tools: ["l1-similar", "l1-shape"] },
       level2: { missionBook: 38, tools: ["l2-scale", "l2-ring"] }
     },
     {
-      week: 9, date: "3/10",
+      week: 9, date: "4/21",
       level1: { missionBook: 9, tools: ["l1-puzzle", "l1-measure", "l1-tactilo"] },
       level2: { missionBook: 39, tools: ["l2-ring", "l2-bus", "l1-dice"] }
     },
     {
-      week: 10, date: "3/17",
+      week: 10, date: "4/28",
       level1: { missionBook: 10, tools: ["l1-tactilo"] },
       level2: { missionBook: 40, tools: ["l2-domino"] }
     },
     {
-      week: 11, date: "3/24",
+      week: 11, date: "5/5",
       level1: { missionBook: 11, tools: ["l1-tower", "l1-tactilo"] },
       level2: { missionBook: 41, tools: ["l2-bus"] }
     },
     {
-      week: 12, date: "3/31",
+      week: 12, date: "5/12",
       level1: { missionBook: 12, tools: ["l1-panoramix", "l1-puzzle", "l1-measure"] },
       level2: { missionBook: 42, tools: ["l2-clock"] }
     },
     {
-      week: 13, date: "4/7",
+      week: 13, date: "5/19",
       level1: { missionBook: 13, tools: ["l1-shape", "l1-puzzle", "l1-measure", "l2-ring"] },
       level2: { missionBook: 43, tools: ["l2-bus"] }
     },
     {
-      week: 14, date: "4/14",
+      week: 14, date: "5/26",
       level1: { missionBook: 14, tools: ["l1-tactilo", "l1-measure", "l1-dice"] },
       level2: { missionBook: 44, tools: ["l2-domino"] }
     },
     {
-      week: 15, date: "4/21",
+      week: 15, date: "6/2",
       level1: { missionBook: 15, tools: ["l1-measure"] },
       level2: { missionBook: 45, tools: ["l2-ring", "l2-bus", "l1-dice"] }
     },
     {
-      week: 16, date: "4/28",
+      week: 16, date: "6/9",
       level1: { missionBook: 16, tools: ["l1-panoramix"] },
       level2: { missionBook: 46, tools: ["l2-stick", "l1-dice"] }
     },
     {
-      week: 17, date: "5/5",
+      week: 17, date: "6/16",
       level1: { missionBook: 17, tools: ["l1-tower", "l1-puzzle", "l1-similar"] },
       level2: { missionBook: 47, tools: ["l2-ring", "l2-bus"] }
     },
     {
-      week: 18, date: "5/12",
+      week: 18, date: "6/23",
       level1: { missionBook: 18, tools: ["l1-measure"] },
       level2: { missionBook: 48, tools: ["l2-domino"] }
     },
     {
-      week: 19, date: "5/19",
+      week: 19, date: "6/30",
       level1: { missionBook: 19, tools: ["l1-measure"] },
       level2: { missionBook: 49, tools: ["l2-ring", "l2-stamp", "l1-dice", "l2-bus", "l2-turning"] }
     },
     {
-      week: 20, date: "5/26",
+      week: 20, date: "7/7",
       level1: { missionBook: 20, tools: ["l1-measure"] },
       level2: { missionBook: 50, tools: ["l2-clock"] }
     },
     {
-      week: 21, date: "6/2",
+      week: 21, date: "7/14",
       level1: { missionBook: 21, tools: ["l1-puzzle", "l1-measure"] },
       level2: { missionBook: 51, tools: ["l2-ring", "l2-turning", "l2-stamp", "l2-bus"] }
     },
     {
-      week: 22, date: "6/9",
+      week: 22, date: "7/21",
       level1: { missionBook: 22, tools: ["l1-puzzle", "l1-measure"] },
       level2: { missionBook: 52, tools: ["l2-ring", "l2-bus", "l2-stamp"] }
     },
     {
-      week: 23, date: "6/16",
+      week: 23, date: "7/28",
       level1: { missionBook: 23, tools: ["l1-measure", "l1-tactilo"] },
       level2: { missionBook: 53, tools: ["l2-clock"] }
     },
     {
-      week: 24, date: "6/23",
+      week: 24, date: "8/4",
       level1: { missionBook: 24, tools: ["l1-tower"] },
       level2: { missionBook: 54, tools: ["l2-ring", "l2-stamp"] }
     },
     {
-      week: 25, date: "6/30",
+      week: 25, date: "8/11",
       level1: { missionBook: 25, tools: ["l1-tactilo"] },
       level2: { missionBook: 55, tools: ["l2-ring", "l2-bus", "l2-stamp"] }
     },
     {
-      week: 26, date: "7/7",
+      week: 26, date: "8/18",
       level1: { missionBook: 26, tools: ["l1-pink"] },
       level2: { missionBook: 56, tools: ["l2-clock"] }
     },
     {
-      week: 27, date: "7/14",
+      week: 27, date: "8/25",
       level1: { missionBook: 27, tools: ["l1-pink"] },
       level2: { missionBook: 57, tools: ["l2-ring", "l2-bus", "l2-stamp", "l1-dice", "l2-turning"] }
     },
     {
-      week: 28, date: "7/21",
+      week: 28, date: "9/1",
       level1: { missionBook: 28, tools: ["l1-measure", "l1-dice"] },
       level2: { missionBook: 58, tools: ["l2-ring", "l2-stamp"] }
     },
     {
-      week: 29, date: "7/28",
+      week: 29, date: "9/8",
       level1: { missionBook: 29, tools: ["l1-measure", "l1-dice"] },
       level2: { missionBook: 59, tools: ["l2-ring", "l2-stamp"] }
     },
     {
-      week: 30, date: "8/4",
+      week: 30, date: "9/15",
       level1: { missionBook: 30, tools: ["l1-measure", "l1-dice"] },
       level2: { missionBook: 60, tools: ["l2-ring", "l2-stamp"] }
     },

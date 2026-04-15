@@ -56,6 +56,11 @@ function renderHomePage() {
       progressText.textContent = `${currentWeek} / 30주`;
     }
   }
+  // 참가자 선택 바
+  renderUserSelector();
+
+  // 나의 진행 현황
+  renderMyProgress();
 
   // 이번 주 미션 카드
   renderCurrentMission(weekData);
@@ -119,6 +124,8 @@ function renderCurrentMission(weekData) {
       </div>
     </div>
 
+    ${renderCheckButtons(currentWeek)}
+
     ${weekData.note ? `<div class="timeline-note">📌 ${weekData.note}</div>` : ''}
   `;
 }
@@ -163,8 +170,6 @@ function renderFAQ() {
     </div>
   `).join('');
 }
-
-
 
 // ==================== 주차 상세 페이지 ====================
 function renderWeekPage() {
@@ -219,6 +224,7 @@ function renderWeekPage() {
         </div>
       </div>
 
+      ${renderCheckButtons(weekNum)}
     `;
   }
 
